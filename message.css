@@ -1,0 +1,157 @@
+/*code written by Theresa Tomilson */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 14pt;
+}
+
+li {
+  display: inline;
+ color: white;
+ text-decoration: none;
+ float: left;
+ font-size: 14pt;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+#sent {
+    border:2px solid black;
+    background-color: #B4CCEF;
+    display: block;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#recieved{
+    border:2px solid black;
+    background-color: #ABEBC6;
+    display: block;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#create{
+  border:2px solid black;
+  background-color: #F9E79F;
+  display: block;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+a.nav {
+/*  display: block; */
+  padding: 8px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+
+h1.top {
+  text-align: center;
+  background-color: black;
+  padding: 0;
+  color: white;
+  font-size: 40pt;}
+
+
+.left{
+  float: left;
+}
+
+.underlineText {
+    text-decoration: underline;
+}
+
+.messageText {
+    background-color: #F4F6F7;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.recipientText {
+    background-color: #F4F6F7;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.subjectText {
+    background-color: #F4F6F7;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.margins {
+    margin-left : 5px;
+}
+
+#sendMessage{
+  background-color: #6FA9BD;
+  border-radius: 5px;
+  margin-left: 700px;
+  display: block;
+
+
+}
+
+
+p{
+  text-align: center;
+  font-size: 14pt;
+}
+
+#nofields {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.blackBackground {
+  background-color: black;
+}
+
+.textAlignCenter {
+  text-align:center;
+
+}
+
+.messageBorder{
+  border-radius: 5px;
+  border: 5px solid black;
+  text-align: left;
+  padding: 5px;
+
+}
+
+p.message{
+  text-align: left;
+
+}
+
+.messageBorder2 {
+  border-radius: 5px;
+  border: 5px solid #E0C327;
+  text-align: left;
+  padding: 5px;
+  float: right;
+  width: 300px;
+  position: absolute;
+  right: 10px;
+
+}
+
+.profileText{
+}
